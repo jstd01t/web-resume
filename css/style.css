@@ -1,0 +1,236 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f7fa;
+}
+/* Main container */
+.Main-container {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200;
+  margin: 40px 40px;
+  background-color: #fff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+.Main-content {
+  padding: 50px 90px;
+  margin-left: 40px;
+  margin-right: auto;
+}
+.Main-content-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000;
+  margin-bottom: 10px;
+}
+/* About me section*/
+.About-me-section {
+  margin-bottom: 40px;
+}
+.About-me-section-profession {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  margin-bottom: 20px;
+}
+.About-me-section-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  margin-bottom: 25px;
+  color: #000;
+}
+.About-me-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  width: 400px;
+}
+/* Projects section*/
+.Projects-section {
+  width: 485px;
+  margin-bottom: 50px;
+}
+.Projects-section-list {
+  padding-left: 18px;
+}
+.Projects-section-units {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 0;
+  color: #000;
+}
+.Projects-section-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  text-decoration: none;
+  padding-left: 10px;
+}
+.Projects-section-square {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000;
+}
+.Projects-section-language {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+.Projects-section-dots {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #a8a8a8;
+}
+/* Work experiance section */
+
+.Work-experiance-block1 {
+  width: 525px;
+  padding-left: 0px;
+  margin-bottom: 20px;
+}
+.Work-experiance-companies {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  margin-bottom: 11px;
+}
+.Work-experiance-companies-name {
+  color: #fb6d3a;
+}
+.Work-experiance-date {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 8px;
+}
+.Work-experiance-date-divider {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000;
+}
+.Work-experiance-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  padding-left: 20px;
+}
+.Work-experiance-block2 {
+  width: 525px;
+  margin-bottom: 20px;
+}
+.Work-experiance-block3 {
+  width: 525px;
+  margin-bottom: 45px;
+}
+
+/* Education section */
+.Education-section {
+  width: 327px;
+}
+.Education-section-univer {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  margin-bottom: 12px;
+}
+.Education-section-degree {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  margin-bottom: 12px;
+}
+.Education-section-date {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+
+/* sidebar section */
+.Sidebar-section {
+  width: 300px;
+  padding: 40px 0;
+  background-color: #1e2939;
+  margin-left: 0;
+}
+.Sidebar-contacts,
+.Sidebar-tech-skills,
+.Sidebar-soft-skills {
+  margin: 50px 0 0 40px;
+}
+.Sidebar-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #ffff;
+}
+.Sidebar-contacts-type {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffff;
+}
+.Sidebar-contacts-tel {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #a8a8a8;
+  padding-left: 7px;
+  text-decoration: none;
+}
+.Sidebar-contacts-mail {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #a8a8a8;
+  padding-left: 7px;
+}
+.Sidebar-list {
+  padding-left: 17px;
+}
+.Sidebar-list-dot {
+  color: #fb6d3a;
+}
+.Sidebar-list-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
